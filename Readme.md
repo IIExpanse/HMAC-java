@@ -101,7 +101,7 @@ curl -sS -X POST http://localhost:8080/verify \
 ```sh
 ./scripts/build.sh
 ```
-
+---
 ### compile.sh ###
 Скрипт, запускающий сборку приложения (основной и тестовой части)
 
@@ -112,7 +112,7 @@ curl -sS -X POST http://localhost:8080/verify \
 ```sh
 ./scripts/compile.sh
 ```
-
+---
 ### run-tests.sh ###
 Скрипт, запускающий тесты приложения через вызов [junit jar файла](junit-console)
 
@@ -124,7 +124,7 @@ curl -sS -X POST http://localhost:8080/verify \
 ```sh
 ./scripts/run-tests.sh
 ```
-
+---
 ### assemble.sh ###
 Скрипт, подготавливающий jar файл и необходимые зависимости
 
@@ -136,7 +136,7 @@ curl -sS -X POST http://localhost:8080/verify \
 ```sh
 ./scripts/assemble.sh
 ```
-
+---
 ### dockerize.sh ###
 Скрипт, собирающий образ и запускающий контейнер с приложением.
 
@@ -148,7 +148,7 @@ curl -sS -X POST http://localhost:8080/verify \
 ```sh
 ./scripts/dockerize.sh
 ```
-
+---
 ### run-java.sh ###
 Скрипт для локального запуска приложения из скомпилированных файлов.
 
@@ -160,7 +160,7 @@ curl -sS -X POST http://localhost:8080/verify \
 ```sh
 ./scripts/run-java.sh
 ```
-
+---
 ### rotate-secret.sh ###
 Утилита для замены секрета в resources/config.json на случайно сгенерированную строку в формате Base64.
 
